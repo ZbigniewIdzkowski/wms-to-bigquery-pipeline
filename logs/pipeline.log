@@ -1,0 +1,12 @@
+2025-06-07 23:15:31,138 | validate_order_records | ERROR: Validation failed: ["Record 1 - Invalid quantity '-5'", 'Record 2 - Missing order ID']
+2025-06-07 23:41:15,134 | extract_wms_orders | INFO: Extracted 3 orders from sample_orders.csv
+2025-06-07 23:46:50,706 | extract_wms_orders | INFO: Extracted 3 orders from sample_orders.csv
+2025-06-07 23:59:47,886 | clean_and_format_orders | ERROR: Row 1 failed to clean: time data 'invalid-date' does not match format '%Y-%m-%d'
+2025-06-07 23:59:47,887 | clean_and_format_orders | INFO: 2 records cleaned successfully.
+2025-06-08 00:17:56,606 | upload_to_bigquery | INFO: Uploading row to BigQuery: {'order_id': 'A123', 'date': '2024-10-01', 'qty': 10}
+2025-06-08 00:17:56,606 | upload_to_bigquery | INFO: Uploading row to BigQuery: {'order_id': 'A124', 'date': '2024-10-02', 'qty': 5}
+2025-06-08 00:17:56,607 | upload_to_bigquery | INFO: 2 rows uploaded to BigQuery successfully.
+2025-06-08 00:28:53,330 | upload_to_bigquery | INFO: Uploading row to BigQuery: {'order_id': 'A123', 'date': '2024-10-01', 'qty': 10}
+2025-06-08 00:28:53,331 | upload_to_bigquery | INFO: Uploading row to BigQuery: {'order_id': 'A124', 'date': '2024-10-02', 'qty': 5}
+2025-06-08 00:28:53,331 | upload_to_bigquery | INFO: 2 rows uploaded to BigQuery successfully.
+2025-06-08 00:28:53,331 | upload_to_bigquery | WARNING: No data to upload.
