@@ -9,7 +9,7 @@ def simulate_upload_to_bigquery(data):
 
     for row in data:
         logger.info(f"Uploading row to BigQuery: {row}")
-        # Here you'd normally use the BigQuery client library
+       
 
     logger.info(f"{len(data)} rows uploaded to BigQuery successfully.")
     return True
