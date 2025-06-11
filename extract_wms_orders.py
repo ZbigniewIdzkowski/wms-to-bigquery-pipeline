@@ -9,7 +9,7 @@ def extract_orders_from_csv(file_path):
         with open(file_path, newline='') as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
-                row["qty"] = int(row["qty"])  # Convert quantity to integer
+                row["qty"] = int(row["qty"])  
                 orders.append(row)
         logger.info(f"Extracted {len(orders)} orders from {file_path}")
         return orders
